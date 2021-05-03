@@ -1,0 +1,160 @@
+body {
+  font-family: "Hiragino Sans","ヒラギノ角ゴシック";
+  font-weight: 900;
+}
+li{
+  list-style: none;
+}
+
+.header-list{
+  width:960px; height:50px;
+}
+
+.header-list li,.header-logo{
+	list-style-type:none;		/*リストマーカー無しにする*/
+	display:inline;			/*リスト項目をインライン表示にする*/
+	float:left;			/*リスト項目を横に並べる*/
+  padding: 25px 20px;
+}
+.header-list li a{
+  /*background-color:navy;*/	/*背景色*/
+	color:#ffffff;		/*文字色*/
+  display:block;			/*リンク部分をブロック表示にする*/
+  width:130px; height:35px;	/*幅と高さ*/
+  padding:15px 0px 0px 0px;	/*上パディング*/
+	text-align:center;		/*テキストをセンター揃えにする*/
+	text-decoration:none;		/*リンク部分を下線無しにする*/
+}
+.header-list a:hover{
+  color: #2f5167;
+}
+.header-logo a{
+  /*background-color:navy;*/	/*背景色*/
+	color:#ffffff;		/*文字色*/
+  display:block;			/*リンク部分をブロック表示にする*/
+  width:130px; height:35px;	/*幅と高さ*/
+  padding:0px 0px 0px 0px;	/*上パディング*/
+	text-align:center;		/*テキストをセンター揃えにする*/
+  text-decoration:none;		/*リンク部分を下線無しにする*/
+}
+.header-logo a:hover{
+  color: black;
+}
+.t-content{
+  border-bottom: 3px solid gray;
+}
+.t-contents{
+  border: 5px solid red;
+}
+.main h2 li a{
+  /*background-color:navy;*/	/*背景色*/
+	color:#ffffff;		/*文字色*/
+  display:block;			/*リンク部分をブロック表示にする*/
+  width:260px; height:35px;	/*幅と高さ*/
+  padding:0px 0px 0px 0px;	/*上パディング*/
+  text-decoration:none;		/*リンク部分を下線無しにする*/
+}
+.main h2 li a:hover{
+  color: black;
+}
+
+.header {
+  background-color: #26d0c9;
+  color: #fff;
+  height: 90px;
+}
+.header-logo{
+  font-size: 36px;
+  float: left;
+
+  padding: 20px 40px;
+}
+
+.main {
+  height: auto !important;
+  background-color: #93defd;
+  padding: 10px 40px;
+}
+
+.copy-container h1{
+  text-align: center;
+  font-size: 100px;
+}
+
+.copy-container h2{
+  text-align: center;
+  font-size: 40px;
+}
+.copy-container span{
+  font-size: 70px;
+  color: rgb(77, 77, 77);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contents-item img{
+  display:block;			/*リンク部分をブロック表示にする*/
+  height: 200px;
+}
+.contents-item span{
+  color: rgb(77, 77, 77);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contents{
+  height: 500px;
+}
+.contents iframe{
+  height: auto !important;
+}
+.section-title{
+  font-size:30px;
+  color: rgb(255, 0, 0);
+  border-bottom:2px solid #dee7ec;
+}
+.contents-item{
+  float: left;
+  margin-right:10px;
+}
+
+.contents-item p{
+  font-size:17px;
+  margin-top:5px;
+}
+
+.contact-form{
+  padding-top:100px;
+}
+
+input, textarea {
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+}
+.contact-submit {
+  background-color: #dee7ec;
+  color: #889eab;
+}
+
+.footer {
+  background-color: #2f5167;
+
+  color:#fff;
+
+  height: 120px;
+
+  padding:40px;
+}
+.footer-logo{
+  font-size:32px;
+  float:left;
+}
+.footer-list{
+  float:right;
+}
+.footer-list li{
+  padding-bottom:20px;
+
+}
