@@ -97,11 +97,11 @@ div.center {
   color: rgb(77, 77, 77);
   font-family: Arial, Helvetica, sans-serif;
 }
-.contents-group contents-item img{
+.contents-item img{
   display:block;			/*リンク部分をブロック表示にする*/
   height: 200px;
 }
-.contents-group contents-item span{
+.contents-item span{
   color: rgb(77, 77, 77);
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -109,7 +109,7 @@ div.center {
 .contents{
   height: 600px;
 }
-.contents-group {
+.contents-item {
   height: auto !important;
   height: 500px;
   padding: 10px 40px;
