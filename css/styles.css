@@ -114,7 +114,10 @@ div.center {
   height: 500px;
   padding: 10px 40px;
 }
-
+.contents iframe{
+  position: absolute;
+  width: 93%;
+}
 .section-title{
   font-size:30px;
   color: rgb(255, 0, 0);
