@@ -97,12 +97,11 @@ div.center {
   color: rgb(77, 77, 77);
   font-family: Arial, Helvetica, sans-serif;
 }
-
-.contents-item img{
+.contents-group contents-item img{
   display:block;			/*リンク部分をブロック表示にする*/
   height: 200px;
 }
-.contents-item span{
+.contents-group contents-item span{
   color: rgb(77, 77, 77);
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -110,15 +109,12 @@ div.center {
 .contents{
   height: 600px;
 }
-.contents-In{
+.contents-group {
   height: auto !important;
   height: 500px;
   padding: 10px 40px;
 }
-.contents iframe{
-  position: absolute;
-  width: 93%;
-}
+
 .section-title{
   font-size:30px;
   color: rgb(255, 0, 0);
