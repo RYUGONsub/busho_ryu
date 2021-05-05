@@ -4,16 +4,27 @@
     <meta charset="utf-8">
     <title>「武将リュウ」公式サイト</title>
     <link rel = "stylesheet" href="css/styles.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/javascript">
         $(function(){
-            $("#contents").load("info.html");
+            $("#info0001").load("info.html");
         });
     </script>
 </head>
 <body>
 
-    <script src="js/header.js"></script>
+    <div class="header" id="header">
+        <div class="header-logo">
+            <a href="index.html">武将リュウ</a>
+        </div>
+        <div class="header-list">
+            <ul>
+                <li><a href="index.html">ブログ的なやつ</a></li>
+                <li><a href="index.html">武将リュウについて</a></li>
+                <li><a href="Mameters.html">マメターズ</a></li>
+            </ul>
+        </div>
+    </div>    
     <div class="main">
         <div class="copy-container">
             <h1>武将リュウ</h1>
@@ -27,10 +38,8 @@
             </ul>
         </h2>
 
-        <div class="contents" id="contents">
-            <h3 class="section-title" id="info0001">ｵｼﾗｾﾀﾞﾖ</h3>
-            <!-- <iframe src="info.html" frameborder="0" width="1000" height="600"></iframe> -->
-            
+        <div class="contents">
+            <h3 class="section-title" id="info0001">ｵｼﾗｾﾀﾞﾖ</h3>            
         </div>
 
         <script type="text/javascript" src="js/contact-form.js"></script>

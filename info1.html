@@ -4,9 +4,17 @@
     <meta charset="utf-8">
     <title>「武将リュウ」公式サイト</title>
     <link rel = "stylesheet" href="css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            $("#header").load("index.html header");
+        });
+    </script>
 </head>
 <body>
-    <script src="js/header.js"></script>
+    <div class="header" id="header">
+
+    </div>
 
     <div class="main">
         <div class="copy-container">
@@ -21,9 +29,7 @@
         </h2>
 
         <div class="contents">
-            <h3 class="section-title" id="info0001">ｵｼﾗｾﾀﾞﾖ</h3>
-            <iframe src="info.html" frameborder="0" width="1000" height="600"></iframe>
-            
+            <h3 class="section-title" id="info0001">ｵｼﾗｾﾀﾞﾖ</h3>            
         </div>
 
     </div>
