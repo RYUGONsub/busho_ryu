@@ -4,18 +4,16 @@
     <meta charset="utf-8">
     <title>「武将リュウ」公式サイト</title>
     <link rel = "stylesheet" href="css/styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            $("#contents").load("info.html");
+        });
+    </script>
 </head>
 <body>
-    <div class="header">
-        <div class="header-logo"><a href="index.html">BushoRyu</a></div>
-        <div class="header-list">
-            <ul>
-                <li><a href="index.html">ホーム</a></li>
-                <li><a href="index.html">武将リュウについて(準備中)</a></li>
-                <li><a href="index.html">マメターズ(準備中)</a></li>
-            </ul>
-        </div>
-    </div>
+
+    <script src="js/header.js"></script>
     <div class="main">
         <div class="copy-container">
             <h1>武将リュウ</h1>
@@ -29,79 +27,15 @@
             </ul>
         </h2>
 
-        <div class="contents">
+        <div class="contents" id="contents">
             <h3 class="section-title" id="info0001">ｵｼﾗｾﾀﾞﾖ</h3>
-
-            <div class="contents-item">
-                <a href="index.html"><img src="images/Card.png"></a>
-                <p><span>2021/4/28 21:46</span> 久しぶりに見てみた</p>
-            </div>            
+            <!-- <iframe src="info.html" frameborder="0" width="1000" height="600"></iframe> -->
             
-            <div class="contents-item">
-                <a href="index.html"><img src="images/Card.png"></a>
-                <p><span>2020/8/11</span> ホームページ制作中...</p>
-            </div>
-
-            <div class="contents-item">
-                <a href="index.html"><img src="images/Card.png"></a>
-                <p><span>2020/8/11</span> ホームページ制作中...</p>
-            </div>
-
-            <div class="contents-item">
-                <a href="index.html"><img src="images/Card.png"></a>
-                <p><span>2020/8/11</span> ホームページ制作中...</p>
-            </div>
-
-            <div class="contents-item">
-                <a href="index.html"><img src="images/Card.png"></a>
-                <p><span>2020/8/11</span> ホームページ制作中...</p>
-            </div>
-
-            <div class="contents-item">
-                <a href="info2.html"><img src="images/Card.png"></a>
-                <p><span>2020/8/11</span> ホームページ制作中...</p>
-            </div>
-
-            <div class="contents-item">
-                <a href="info1.html"><img src="images/Card.png"></a>
-                <p><span>2020/8/10</span> ホームページが始動しました。</p>
-            </div>
-
-            <div class="contents-item">
-                <a href="index.html"><img src=""></a>
-                <p><span></span> </p>
-            </div>
-
         </div>
 
-        <!-- <div class="Game">
-            <iframe width="1280px" height="720px" src="https://ryugon.github.io/Mameters-1-PC/" frameborder="0" allowfullscreen></iframe>
-        </div> -->
-
-        <div class="contact-form">
-            <form method="post" action="xxxxxxxx.php" id="form1" name="form1">
-            
-            <h3 class="section-title" id="info0002">武将リュウへメッセージ</h3>
-            <p>メールアドレス（必須）</p>
-            <td><input type="email" size="30" name="mail" id="mail"></td>
-            <p>お名前</p>
-            <td><input type="text" size="20" name="namae" id="namae"></td>
-            <p>メールの内容（必須）</p>
-            <td><textarea name="naiyou" cols="40" rows="5"></textarea></td>
-            <p>※必須項目は必ずご入力ください</p>
-            <input class="contact-submit" type="submit" value="送信">
-        </div>
+        <script type="text/javascript" src="js/contact-form.js"></script>
     </div>
-    <div class="footer">
-        <div class="footer-logo">武将リュウ</div>
-        <div class="footer-list">
-            <ul>
-                <li><a href="https://twitter.com/Busho_RYU">武将リュウ Twitter</a></li>
-                <li><a href="https://www.youtube.com/channel/UClAkxTGY4s2b8J-VssVBymw">武将リュウ YouTubeChannel</a></li>
-                <li><a href="https://rookie.shonenjump.com/series/X1vJnKYo1t8">マメターズの漫画(全2話)</a></li>
-            </ul>
-        </div>
-    </div>
+    <script type="text/javascript" src="js/footer.js"></script>
     <script type="text/javascript" src="js/styles.js"></script>
 </body>
 </html>

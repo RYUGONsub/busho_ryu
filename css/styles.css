@@ -14,7 +14,8 @@ li{
 	list-style-type:none;		/*リストマーカー無しにする*/
 	display:inline;			/*リスト項目をインライン表示にする*/
 	float:left;			/*リスト項目を横に並べる*/
-  padding: 25px 20px;
+  padding: 20px 40px;
+  white-space:nowrap;
 }
 .header-list li a{
   /*background-color:navy;*/	/*背景色*/
@@ -30,6 +31,7 @@ li{
 }
 .header-logo a{
   /*background-color:navy;*/	/*背景色*/
+  font-family: "Hiragino Sans","ヒラギノ角ゴシック";
 	color:#ffffff;		/*文字色*/
   display:block;			/*リンク部分をブロック表示にする*/
   width:130px; height:35px;	/*幅と高さ*/
@@ -45,6 +47,7 @@ li{
 }
 .t-contents{
   border: 5px solid red;
+  white-space:nowrap;
 }
 .main h2 li a{
   /*background-color:navy;*/	/*背景色*/
@@ -72,13 +75,17 @@ li{
 
 .main {
   height: auto !important;
-  background-color: #93defd;
+  background-image : url("MameBG.png");
   padding: 10px 40px;
 }
-
+div.center {
+  padding-top: 50px;
+  text-align: center; 
+}
 .copy-container h1{
   text-align: center;
   font-size: 100px;
+  text-shadow:0 5px 5px rgb(255, 255, 255);
 }
 
 .copy-container h2{
@@ -101,10 +108,16 @@ li{
 }
 
 .contents{
+  height: 600px;
+}
+.contents-In{
+  height: auto !important;
   height: 500px;
+  padding: 10px 40px;
 }
 .contents iframe{
-  height: auto !important;
+  position: absolute;
+  width: 93%;
 }
 .section-title{
   font-size:30px;
@@ -113,12 +126,20 @@ li{
 }
 .contents-item{
   float: left;
-  margin-right:10px;
+  margin-right:20px;
+  margin-bottom:15px;
 }
 
-.contents-item p{
+.contents-item dd a{
   font-size:17px;
-  margin-top:5px;
+  text-decoration:none;		/*リンク部分を下線無しにする*/
+  color:#000000;		/*文字色*/
+  display:block;			/*リンク部分をブロック表示にする*/
+}
+
+.contents-item dt{
+  font-size:10px;
+  color:#00000083;		/*文字色*/
 }
 
 .contact-form{
@@ -143,18 +164,22 @@ input, textarea {
 
   color:#fff;
 
-  height: 120px;
+  height: 100px;
 
   padding:40px;
 }
 .footer-logo{
-  font-size:32px;
+  font-size:50px;
   float:left;
 }
 .footer-list{
   float:right;
 }
-.footer-list li{
+.footer-list li a{
   padding-bottom:20px;
-
+  text-decoration:none;		/*リンク部分を下線無しにする*/
+  color:#ffffff;		/*文字色*/
+  padding: 15px 40px;
+  display:block;			/*リンク部分をブロック表示にする*/
+  height: 5px;
 }
