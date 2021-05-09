@@ -94,6 +94,14 @@ div.center {
   text-align: center;
   font-size: 40px;
 }
+.copy-container a{
+  text-align: center;
+  font-size: 40px;
+}
+.copy-container img{
+  display:block;			/*リンク部分をブロック表示にする*/
+  height: 200px;
+}
 .copy-container span{
   font-size: 30px;
   color: rgb(77, 77, 77);
@@ -133,6 +141,12 @@ div.center {
   font-size:17px;
   text-decoration:none;		/*リンク部分を下線無しにする*/
   color:#000000;		/*文字色*/
+  display:block;			/*リンク部分をブロック表示にする*/
+}
+.contents-item dd a span{
+  font-size:7px;
+  text-decoration:none;		/*リンク部分を下線無しにする*/
+  color:#000000a1;		/*文字色*/
   display:block;			/*リンク部分をブロック表示にする*/
 }
 
