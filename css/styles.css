@@ -95,12 +95,19 @@ div.center {
   font-size: 40px;
 }
 .copy-container a{
-  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 8em;
   font-size: 40px;
 }
 .copy-container img{
+  margin-left: auto;
+  margin-right: auto;
   display:block;			/*リンク部分をブロック表示にする*/
   height: 200px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 5px double #333333;
 }
 .copy-container span{
   font-size: 30px;
